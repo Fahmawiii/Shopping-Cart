@@ -1,15 +1,6 @@
 /* Create an array named products to hold product objects */
 let products = [];
 
-/* Create 3 or more product objects using object literal notation 
-   Each product should include five properties:
-   - name: product name (string)
-   - price: product price (number)
-   - quantity: quantity in cart, starts at zero (number)
-   - productId: unique identifier for the product (number)
-   - image: URL string for product image
-*/
-
 // Add product objects to the products array
 products.push({
     name: "Cherry",
@@ -119,10 +110,7 @@ function pay(amount) {
     return remaining; // Return remaining balance
 }
 
-/* The following is for running unit tests. 
-   To fully complete this project, it is expected that all tests pass.
-   Run the following command in terminal to run tests: npm run test
-*/
+
 
 module.exports = {
     products,
@@ -134,6 +122,5 @@ module.exports = {
     cartTotal,
     pay,
     emptyCart,
-    // Uncomment the following line if completing the currency converter bonus
-    // currency
+  
 };
